@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+
+body {
+  font-family: "ABeeZee", sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  background-color: #534e4a;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  margin: 0 10px;
+}
+
+.nav-bar a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #c3aa94;
+  display: flex;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 85px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.hero-left {
+  max-width: 450px;
+  margin: 174px 271px 0 173px;
+}
+
+button {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #534e4a;
+}
+
+.btn-white {
+  width: 72px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 10px;
+  padding: 8px 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.rows-btn {
+  margin-bottom: 133px;
+}
+.btn-orange {
+  width: 188px;
+  height: 65px;
+  border: none;
+  background-color: #fad5a2;
+  margin-right: 16px;
+}
+
+.btn-transparent {
+  width: 238px;
+  height: 65px;
+  background-color: transparent;
+  border: 1px solid #534e4a;
+}
